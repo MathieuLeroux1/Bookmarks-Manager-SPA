@@ -207,8 +207,8 @@ function renderBookmarkForm(bookmark = null) {
                 id="Url"
                 placeholder="Url"
                 required
-                RequireMessage="Veuillez entrer votre téléphone" 
-                InvalidMessage="Veuillez entrer un téléphone valide"
+                RequireMessage="Veuillez entrer un lien" 
+                InvalidMessage="Veuillez entrer un lien valide"
                 value="${bookmark.Url}" 
             />
             <label for="Category" class="form-label">Courriel </label>
