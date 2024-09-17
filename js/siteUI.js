@@ -191,7 +191,7 @@ function renderBookmarkForm(bookmark = null) {
             <div class="editFavicon">${favicon}</div>
             <label for="Title" class="form-label">Titre </label>
             <input 
-                class="form-control Alpha"
+                class="form-control"
                 name="Title" 
                 id="Title" 
                 placeholder="Titre"
@@ -202,7 +202,7 @@ function renderBookmarkForm(bookmark = null) {
             />
             <label for="Url" class="form-label">Url </label>
             <input
-                class="form-control Url"
+                class="form-control URL"
                 name="Url"
                 id="Url"
                 placeholder="Url"
@@ -213,7 +213,7 @@ function renderBookmarkForm(bookmark = null) {
             />
             <label for="Category" class="form-label">Courriel </label>
             <input 
-                class="form-control Category"
+                class="form-control"
                 name="Category"
                 id="Category"
                 placeholder="Catégorie"
